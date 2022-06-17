@@ -1,7 +1,6 @@
 import os
 from flask_restful import Api
 from flask import Flask, request, send_file
-from Main.Routes.routes import initialize_routes
 from flask_cors import CORS,cross_origin
 from bs4 import BeautifulSoup
 import requests 
@@ -32,7 +31,6 @@ from io import BytesIO
 import skimage
 import numpy as np
 
-initialize_routes(api)
 
 
 def convertImage(img):
