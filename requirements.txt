@@ -6,4 +6,4 @@ requests
 scikit-image==0.19.3
 scipy==1.8.1
 selenium==4.2.0
-urllib3>=1.21.1,<1.25
+urllib3
